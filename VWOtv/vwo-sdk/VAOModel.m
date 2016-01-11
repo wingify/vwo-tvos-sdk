@@ -12,9 +12,14 @@
 #import "VAORavenClient.h"
 #import "VAOUtils.h"
 
+#define kMetaKey @"__vaojson"
+#define kMessageKey @"__vaomessages"
+#define kCampaignKey @"__vaocampaigns"
+
 @implementation VAOModel
 
 NSMutableDictionary *campaigns;
+NSUserDefaults *userDefaults;
 
 + (instancetype)sharedInstance{
     static VAOModel *instance = nil;
@@ -27,17 +32,14 @@ NSMutableDictionary *campaigns;
 
 - (id)init {
     if (self = [super init]) {
-        NSString *campaignsPlist = [self getCampaignPath];
-        campaigns = [NSMutableDictionary dictionaryWithDictionary:[NSDictionary dictionaryWithContentsOfFile:campaignsPlist]];
+        userDefaults = [NSUserDefaults standardUserDefaults];
+        campaigns = [NSKeyedUnarchiver unarchiveObjectWithData:[userDefaults objectForKey:kCampaignKey]];
+        campaigns = [NSMutableDictionary dictionaryWithDictionary:campaigns];
         if ([[campaigns allKeys] count] > 0) {
             [VAOUtils setIsNewVisitor:NO];
         }
     }
     return self;
-}
-
-- (NSString*)getCampaignPath {
-    return [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/__vaocampaigns.plist"];
 }
 
 - (void)downloadMetaWithCompletionBlock:(void(^)(NSMutableArray *meta))completionBlock
@@ -56,9 +58,7 @@ NSMutableDictionary *campaigns;
 }
 
 - (NSMutableDictionary*)loadMeta {
-    NSString *abPlist = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/__vaojson.plist"];
-    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithContentsOfFile:abPlist];
-    return dict;
+    return [NSMutableDictionary dictionaryWithDictionary:[NSKeyedUnarchiver unarchiveObjectWithData:[userDefaults objectForKey:kMetaKey]]];
 }
 
 - (void)saveMeta:(NSDictionary *)meta {
@@ -67,8 +67,7 @@ NSMutableDictionary *campaigns;
      * Original values, in particular, may not be serializable at all, e.g., images.
      */
     @try {
-        NSString *abPlist = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/__vaojson.plist"];
-        [meta writeToFile:abPlist atomically:YES];
+        [userDefaults setObject:[NSKeyedArchiver archivedDataWithRootObject:meta] forKey:kMetaKey];
     }
     @catch (NSException *exception) {
         VAORavenCaptureException(exception);
@@ -79,19 +78,13 @@ NSMutableDictionary *campaigns;
 }
 
 - (NSArray *)loadMessages {
-    NSString *messagesPlist = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/__vaomessages.plist"];
-    NSArray *messages = [NSArray arrayWithContentsOfFile:messagesPlist];
+    NSArray *messages = [NSKeyedUnarchiver unarchiveObjectWithData:[userDefaults objectForKey:kMessageKey]];
     return messages;
 }
 
 - (void)saveMessages:(NSArray *)messages {
     @try {
-
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-            NSString *messagesPlist = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/__vaomessages.plist"];
-            [messages writeToFile:messagesPlist atomically:YES];
-        });
-
+        [userDefaults setObject:[NSKeyedArchiver archivedDataWithRootObject:messages] forKey:kMessageKey];
     }
     @catch (NSException *exception) {
         VAORavenCaptureException(exception);
@@ -138,10 +131,7 @@ NSMutableDictionary *campaigns;
         campaigns[experimentId] = @{@"varId":variationId};
         
         @try {
-            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-                NSString *campaignsPlist = [self getCampaignPath];
-                [[campaigns copy] writeToFile:campaignsPlist atomically:YES];
-            });
+            [userDefaults setObject:[NSKeyedArchiver archivedDataWithRootObject:campaigns] forKey:kCampaignKey];
         }
         @catch (NSException *exception) {
             VAORavenCaptureException(exception);
@@ -170,10 +160,7 @@ NSMutableDictionary *campaigns;
         [newGoalsArray addObject:goalId];
         experimentDict[@"goals"] = newGoalsArray;
         campaigns[experimentId] = experimentDict;
-        NSString *campaignsPlist = [self getCampaignPath];
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-            [[campaigns copy] writeToFile:campaignsPlist atomically:YES];
-        });
+        [userDefaults setObject:[NSKeyedArchiver archivedDataWithRootObject:campaigns] forKey:kCampaignKey];
         return YES;
     }
     
