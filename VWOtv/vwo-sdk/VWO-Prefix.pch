@@ -9,14 +9,10 @@
     #import <UIKit/UIKit.h>
 #endif
 
-//#define VAO_DOMAIN @"192.168.1.12"
 #define VAO_DOMAIN @"dacdn.vwo.com"
-#define VAO_DEVICE_VERIFY_DOMAIN @"dacdn.vwo.com"
 #define VAO_PREVIEW_DOMAIN @"dacdn.vwo.com"
 
-#define VAO_EDITOR_TCP_HOST @"pyhub.vwo.com"
-#define VAO_EDITOR_TCP_PORT 8889
-#define VWO_SDK_VERSION @"1.4.5"
+#define VWO_SDK_VERSION @"1.1.0"
 
 #define VAO_SESSION_KEY @"vaoSession"
 
