@@ -10,6 +10,58 @@
 		CC3FE3D51C3E557E0032A3F4 /* VWOtv.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3D41C3E557E0032A3F4 /* VWOtv.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC3FE3DC1C3E557E0032A3F4 /* VWOtv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3FE3D11C3E557E0032A3F4 /* VWOtv.framework */; };
 		CC3FE3E11C3E557E0032A3F4 /* VWOtvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3E01C3E557E0032A3F4 /* VWOtvTests.m */; };
+		CC3FE4231C3E55F00032A3F4 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3ED1C3E55F00032A3F4 /* AFHTTPSessionManager.h */; };
+		CC3FE4241C3E55F00032A3F4 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3EE1C3E55F00032A3F4 /* AFHTTPSessionManager.m */; };
+		CC3FE4251C3E55F00032A3F4 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3EF1C3E55F00032A3F4 /* AFNetworking.h */; };
+		CC3FE4261C3E55F00032A3F4 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3F01C3E55F00032A3F4 /* AFNetworkReachabilityManager.h */; };
+		CC3FE4271C3E55F00032A3F4 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3F11C3E55F00032A3F4 /* AFNetworkReachabilityManager.m */; };
+		CC3FE4281C3E55F00032A3F4 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3F21C3E55F00032A3F4 /* AFSecurityPolicy.h */; };
+		CC3FE4291C3E55F00032A3F4 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3F31C3E55F00032A3F4 /* AFSecurityPolicy.m */; };
+		CC3FE42A1C3E55F00032A3F4 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3F41C3E55F00032A3F4 /* AFURLRequestSerialization.h */; };
+		CC3FE42B1C3E55F00032A3F4 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3F51C3E55F00032A3F4 /* AFURLRequestSerialization.m */; };
+		CC3FE42C1C3E55F00032A3F4 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3F61C3E55F00032A3F4 /* AFURLResponseSerialization.h */; };
+		CC3FE42D1C3E55F00032A3F4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3F71C3E55F00032A3F4 /* AFURLResponseSerialization.m */; };
+		CC3FE42E1C3E55F00032A3F4 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3F81C3E55F00032A3F4 /* AFURLSessionManager.h */; };
+		CC3FE42F1C3E55F00032A3F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3F91C3E55F00032A3F4 /* AFURLSessionManager.m */; };
+		CC3FE4301C3E55F00032A3F4 /* VAORavenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3FB1C3E55F00032A3F4 /* VAORavenClient.h */; };
+		CC3FE4311C3E55F00032A3F4 /* VAORavenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3FC1C3E55F00032A3F4 /* VAORavenClient.m */; };
+		CC3FE4321C3E55F00032A3F4 /* VAORavenClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3FD1C3E55F00032A3F4 /* VAORavenClient_Private.h */; };
+		CC3FE4331C3E55F00032A3F4 /* VAORavenConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE3FE1C3E55F00032A3F4 /* VAORavenConfig.h */; };
+		CC3FE4341C3E55F00032A3F4 /* VAORavenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE3FF1C3E55F00032A3F4 /* VAORavenConfig.m */; };
+		CC3FE4351C3E55F00032A3F4 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4011C3E55F00032A3F4 /* SocketAckEmitter.swift */; };
+		CC3FE4361C3E55F00032A3F4 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4021C3E55F00032A3F4 /* SocketAckManager.swift */; };
+		CC3FE4371C3E55F00032A3F4 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4031C3E55F00032A3F4 /* SocketAnyEvent.swift */; };
+		CC3FE4381C3E55F00032A3F4 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4041C3E55F00032A3F4 /* SocketEngine.swift */; };
+		CC3FE4391C3E55F00032A3F4 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4051C3E55F00032A3F4 /* SocketEngineClient.swift */; };
+		CC3FE43A1C3E55F00032A3F4 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4061C3E55F00032A3F4 /* SocketEnginePacketType.swift */; };
+		CC3FE43B1C3E55F00032A3F4 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4071C3E55F00032A3F4 /* SocketEngineSpec.swift */; };
+		CC3FE43C1C3E55F00032A3F4 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4081C3E55F00032A3F4 /* SocketEventHandler.swift */; };
+		CC3FE43D1C3E55F00032A3F4 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4091C3E55F00032A3F4 /* SocketFixUTF8.swift */; };
+		CC3FE43E1C3E55F00032A3F4 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE40A1C3E55F00032A3F4 /* SocketIOClient.swift */; };
+		CC3FE43F1C3E55F00032A3F4 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE40B1C3E55F00032A3F4 /* SocketIOClientOption.swift */; };
+		CC3FE4401C3E55F00032A3F4 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE40C1C3E55F00032A3F4 /* SocketIOClientStatus.swift */; };
+		CC3FE4411C3E55F00032A3F4 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE40D1C3E55F00032A3F4 /* SocketLogger.swift */; };
+		CC3FE4421C3E55F00032A3F4 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE40E1C3E55F00032A3F4 /* SocketPacket.swift */; };
+		CC3FE4431C3E55F00032A3F4 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE40F1C3E55F00032A3F4 /* SocketParser.swift */; };
+		CC3FE4441C3E55F00032A3F4 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4101C3E55F00032A3F4 /* SocketStringReader.swift */; };
+		CC3FE4451C3E55F00032A3F4 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4111C3E55F00032A3F4 /* SocketTypes.swift */; };
+		CC3FE4461C3E55F00032A3F4 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4121C3E55F00032A3F4 /* SwiftRegex.swift */; };
+		CC3FE4471C3E55F00032A3F4 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4131C3E55F00032A3F4 /* WebSocket.swift */; };
+		CC3FE4481C3E55F00032A3F4 /* VAOAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE4141C3E55F00032A3F4 /* VAOAPIClient.h */; };
+		CC3FE4491C3E55F00032A3F4 /* VAOAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4151C3E55F00032A3F4 /* VAOAPIClient.m */; };
+		CC3FE44A1C3E55F00032A3F4 /* VAOController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE4161C3E55F00032A3F4 /* VAOController.h */; };
+		CC3FE44B1C3E55F00032A3F4 /* VAOController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4171C3E55F00032A3F4 /* VAOController.m */; };
+		CC3FE44C1C3E55F00032A3F4 /* VAOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE4181C3E55F00032A3F4 /* VAOModel.h */; };
+		CC3FE44D1C3E55F00032A3F4 /* VAOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4191C3E55F00032A3F4 /* VAOModel.m */; };
+		CC3FE44E1C3E55F00032A3F4 /* VAOPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE41A1C3E55F00032A3F4 /* VAOPrivate.h */; };
+		CC3FE44F1C3E55F00032A3F4 /* VAOSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE41B1C3E55F00032A3F4 /* VAOSocketClient.h */; };
+		CC3FE4501C3E55F00032A3F4 /* VAOSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE41C1C3E55F00032A3F4 /* VAOSocketClient.m */; };
+		CC3FE4511C3E55F00032A3F4 /* VAOUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE41D1C3E55F00032A3F4 /* VAOUtils.h */; };
+		CC3FE4521C3E55F10032A3F4 /* VAOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE41E1C3E55F00032A3F4 /* VAOUtils.m */; };
+		CC3FE4531C3E55F10032A3F4 /* VWO-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC3FE41F1C3E55F00032A3F4 /* VWO-Info.plist */; };
+		CC3FE4541C3E55F10032A3F4 /* VWO-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE4201C3E55F00032A3F4 /* VWO-Prefix.pch */; };
+		CC3FE4551C3E55F10032A3F4 /* VWO.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3FE4211C3E55F00032A3F4 /* VWO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3FE4561C3E55F10032A3F4 /* VWO.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3FE4221C3E55F00032A3F4 /* VWO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +81,58 @@
 		CC3FE3DB1C3E557E0032A3F4 /* VWOtvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWOtvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3FE3E01C3E557E0032A3F4 /* VWOtvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWOtvTests.m; sourceTree = "<group>"; };
 		CC3FE3E21C3E557E0032A3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3FE3ED1C3E55F00032A3F4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CC3FE3EE1C3E55F00032A3F4 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CC3FE3EF1C3E55F00032A3F4 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CC3FE3F01C3E55F00032A3F4 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CC3FE3F11C3E55F00032A3F4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CC3FE3F21C3E55F00032A3F4 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CC3FE3F31C3E55F00032A3F4 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CC3FE3F41C3E55F00032A3F4 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CC3FE3F51C3E55F00032A3F4 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CC3FE3F61C3E55F00032A3F4 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CC3FE3F71C3E55F00032A3F4 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CC3FE3F81C3E55F00032A3F4 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CC3FE3F91C3E55F00032A3F4 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CC3FE3FB1C3E55F00032A3F4 /* VAORavenClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAORavenClient.h; sourceTree = "<group>"; };
+		CC3FE3FC1C3E55F00032A3F4 /* VAORavenClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAORavenClient.m; sourceTree = "<group>"; };
+		CC3FE3FD1C3E55F00032A3F4 /* VAORavenClient_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAORavenClient_Private.h; sourceTree = "<group>"; };
+		CC3FE3FE1C3E55F00032A3F4 /* VAORavenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAORavenConfig.h; sourceTree = "<group>"; };
+		CC3FE3FF1C3E55F00032A3F4 /* VAORavenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAORavenConfig.m; sourceTree = "<group>"; };
+		CC3FE4011C3E55F00032A3F4 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
+		CC3FE4021C3E55F00032A3F4 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		CC3FE4031C3E55F00032A3F4 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		CC3FE4041C3E55F00032A3F4 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		CC3FE4051C3E55F00032A3F4 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		CC3FE4061C3E55F00032A3F4 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		CC3FE4071C3E55F00032A3F4 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineSpec.swift; sourceTree = "<group>"; };
+		CC3FE4081C3E55F00032A3F4 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		CC3FE4091C3E55F00032A3F4 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		CC3FE40A1C3E55F00032A3F4 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		CC3FE40B1C3E55F00032A3F4 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
+		CC3FE40C1C3E55F00032A3F4 /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		CC3FE40D1C3E55F00032A3F4 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		CC3FE40E1C3E55F00032A3F4 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		CC3FE40F1C3E55F00032A3F4 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		CC3FE4101C3E55F00032A3F4 /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
+		CC3FE4111C3E55F00032A3F4 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		CC3FE4121C3E55F00032A3F4 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		CC3FE4131C3E55F00032A3F4 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		CC3FE4141C3E55F00032A3F4 /* VAOAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAOAPIClient.h; sourceTree = "<group>"; };
+		CC3FE4151C3E55F00032A3F4 /* VAOAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAOAPIClient.m; sourceTree = "<group>"; };
+		CC3FE4161C3E55F00032A3F4 /* VAOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAOController.h; sourceTree = "<group>"; };
+		CC3FE4171C3E55F00032A3F4 /* VAOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAOController.m; sourceTree = "<group>"; };
+		CC3FE4181C3E55F00032A3F4 /* VAOModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAOModel.h; sourceTree = "<group>"; };
+		CC3FE4191C3E55F00032A3F4 /* VAOModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAOModel.m; sourceTree = "<group>"; };
+		CC3FE41A1C3E55F00032A3F4 /* VAOPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAOPrivate.h; sourceTree = "<group>"; };
+		CC3FE41B1C3E55F00032A3F4 /* VAOSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAOSocketClient.h; sourceTree = "<group>"; };
+		CC3FE41C1C3E55F00032A3F4 /* VAOSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAOSocketClient.m; sourceTree = "<group>"; };
+		CC3FE41D1C3E55F00032A3F4 /* VAOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAOUtils.h; sourceTree = "<group>"; };
+		CC3FE41E1C3E55F00032A3F4 /* VAOUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAOUtils.m; sourceTree = "<group>"; };
+		CC3FE41F1C3E55F00032A3F4 /* VWO-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VWO-Info.plist"; sourceTree = "<group>"; };
+		CC3FE4201C3E55F00032A3F4 /* VWO-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VWO-Prefix.pch"; sourceTree = "<group>"; };
+		CC3FE4211C3E55F00032A3F4 /* VWO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWO.h; sourceTree = "<group>"; };
+		CC3FE4221C3E55F00032A3F4 /* VWO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +175,7 @@
 		CC3FE3D31C3E557E0032A3F4 /* VWOtv */ = {
 			isa = PBXGroup;
 			children = (
+				CC3FE3EB1C3E55F00032A3F4 /* vwo-sdk */,
 				CC3FE3D41C3E557E0032A3F4 /* VWOtv.h */,
 				CC3FE3D61C3E557E0032A3F4 /* Info.plist */,
 			);
@@ -86,6 +191,89 @@
 			path = VWOtvTests;
 			sourceTree = "<group>";
 		};
+		CC3FE3EB1C3E55F00032A3F4 /* vwo-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				CC3FE3EC1C3E55F00032A3F4 /* AFNetworking */,
+				CC3FE3FA1C3E55F00032A3F4 /* Raven */,
+				CC3FE4001C3E55F00032A3F4 /* Socket */,
+				CC3FE4141C3E55F00032A3F4 /* VAOAPIClient.h */,
+				CC3FE4151C3E55F00032A3F4 /* VAOAPIClient.m */,
+				CC3FE4161C3E55F00032A3F4 /* VAOController.h */,
+				CC3FE4171C3E55F00032A3F4 /* VAOController.m */,
+				CC3FE4181C3E55F00032A3F4 /* VAOModel.h */,
+				CC3FE4191C3E55F00032A3F4 /* VAOModel.m */,
+				CC3FE41A1C3E55F00032A3F4 /* VAOPrivate.h */,
+				CC3FE41B1C3E55F00032A3F4 /* VAOSocketClient.h */,
+				CC3FE41C1C3E55F00032A3F4 /* VAOSocketClient.m */,
+				CC3FE41D1C3E55F00032A3F4 /* VAOUtils.h */,
+				CC3FE41E1C3E55F00032A3F4 /* VAOUtils.m */,
+				CC3FE41F1C3E55F00032A3F4 /* VWO-Info.plist */,
+				CC3FE4201C3E55F00032A3F4 /* VWO-Prefix.pch */,
+				CC3FE4211C3E55F00032A3F4 /* VWO.h */,
+				CC3FE4221C3E55F00032A3F4 /* VWO.m */,
+			);
+			path = "vwo-sdk";
+			sourceTree = "<group>";
+		};
+		CC3FE3EC1C3E55F00032A3F4 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CC3FE3ED1C3E55F00032A3F4 /* AFHTTPSessionManager.h */,
+				CC3FE3EE1C3E55F00032A3F4 /* AFHTTPSessionManager.m */,
+				CC3FE3EF1C3E55F00032A3F4 /* AFNetworking.h */,
+				CC3FE3F01C3E55F00032A3F4 /* AFNetworkReachabilityManager.h */,
+				CC3FE3F11C3E55F00032A3F4 /* AFNetworkReachabilityManager.m */,
+				CC3FE3F21C3E55F00032A3F4 /* AFSecurityPolicy.h */,
+				CC3FE3F31C3E55F00032A3F4 /* AFSecurityPolicy.m */,
+				CC3FE3F41C3E55F00032A3F4 /* AFURLRequestSerialization.h */,
+				CC3FE3F51C3E55F00032A3F4 /* AFURLRequestSerialization.m */,
+				CC3FE3F61C3E55F00032A3F4 /* AFURLResponseSerialization.h */,
+				CC3FE3F71C3E55F00032A3F4 /* AFURLResponseSerialization.m */,
+				CC3FE3F81C3E55F00032A3F4 /* AFURLSessionManager.h */,
+				CC3FE3F91C3E55F00032A3F4 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CC3FE3FA1C3E55F00032A3F4 /* Raven */ = {
+			isa = PBXGroup;
+			children = (
+				CC3FE3FB1C3E55F00032A3F4 /* VAORavenClient.h */,
+				CC3FE3FC1C3E55F00032A3F4 /* VAORavenClient.m */,
+				CC3FE3FD1C3E55F00032A3F4 /* VAORavenClient_Private.h */,
+				CC3FE3FE1C3E55F00032A3F4 /* VAORavenConfig.h */,
+				CC3FE3FF1C3E55F00032A3F4 /* VAORavenConfig.m */,
+			);
+			path = Raven;
+			sourceTree = "<group>";
+		};
+		CC3FE4001C3E55F00032A3F4 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				CC3FE4011C3E55F00032A3F4 /* SocketAckEmitter.swift */,
+				CC3FE4021C3E55F00032A3F4 /* SocketAckManager.swift */,
+				CC3FE4031C3E55F00032A3F4 /* SocketAnyEvent.swift */,
+				CC3FE4041C3E55F00032A3F4 /* SocketEngine.swift */,
+				CC3FE4051C3E55F00032A3F4 /* SocketEngineClient.swift */,
+				CC3FE4061C3E55F00032A3F4 /* SocketEnginePacketType.swift */,
+				CC3FE4071C3E55F00032A3F4 /* SocketEngineSpec.swift */,
+				CC3FE4081C3E55F00032A3F4 /* SocketEventHandler.swift */,
+				CC3FE4091C3E55F00032A3F4 /* SocketFixUTF8.swift */,
+				CC3FE40A1C3E55F00032A3F4 /* SocketIOClient.swift */,
+				CC3FE40B1C3E55F00032A3F4 /* SocketIOClientOption.swift */,
+				CC3FE40C1C3E55F00032A3F4 /* SocketIOClientStatus.swift */,
+				CC3FE40D1C3E55F00032A3F4 /* SocketLogger.swift */,
+				CC3FE40E1C3E55F00032A3F4 /* SocketPacket.swift */,
+				CC3FE40F1C3E55F00032A3F4 /* SocketParser.swift */,
+				CC3FE4101C3E55F00032A3F4 /* SocketStringReader.swift */,
+				CC3FE4111C3E55F00032A3F4 /* SocketTypes.swift */,
+				CC3FE4121C3E55F00032A3F4 /* SwiftRegex.swift */,
+				CC3FE4131C3E55F00032A3F4 /* WebSocket.swift */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +282,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC3FE3D51C3E557E0032A3F4 /* VWOtv.h in Headers */,
+				CC3FE4551C3E55F10032A3F4 /* VWO.h in Headers */,
+				CC3FE4511C3E55F00032A3F4 /* VAOUtils.h in Headers */,
+				CC3FE42A1C3E55F00032A3F4 /* AFURLRequestSerialization.h in Headers */,
+				CC3FE4301C3E55F00032A3F4 /* VAORavenClient.h in Headers */,
+				CC3FE44A1C3E55F00032A3F4 /* VAOController.h in Headers */,
+				CC3FE4231C3E55F00032A3F4 /* AFHTTPSessionManager.h in Headers */,
+				CC3FE4481C3E55F00032A3F4 /* VAOAPIClient.h in Headers */,
+				CC3FE44F1C3E55F00032A3F4 /* VAOSocketClient.h in Headers */,
+				CC3FE4281C3E55F00032A3F4 /* AFSecurityPolicy.h in Headers */,
+				CC3FE4261C3E55F00032A3F4 /* AFNetworkReachabilityManager.h in Headers */,
+				CC3FE44E1C3E55F00032A3F4 /* VAOPrivate.h in Headers */,
+				CC3FE4321C3E55F00032A3F4 /* VAORavenClient_Private.h in Headers */,
+				CC3FE42E1C3E55F00032A3F4 /* AFURLSessionManager.h in Headers */,
+				CC3FE44C1C3E55F00032A3F4 /* VAOModel.h in Headers */,
+				CC3FE4331C3E55F00032A3F4 /* VAORavenConfig.h in Headers */,
+				CC3FE4541C3E55F10032A3F4 /* VWO-Prefix.pch in Headers */,
+				CC3FE42C1C3E55F00032A3F4 /* AFURLResponseSerialization.h in Headers */,
+				CC3FE4251C3E55F00032A3F4 /* AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3FE4531C3E55F10032A3F4 /* VWO-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +400,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3FE4561C3E55F10032A3F4 /* VWO.m in Sources */,
+				CC3FE4391C3E55F00032A3F4 /* SocketEngineClient.swift in Sources */,
+				CC3FE4401C3E55F00032A3F4 /* SocketIOClientStatus.swift in Sources */,
+				CC3FE4381C3E55F00032A3F4 /* SocketEngine.swift in Sources */,
+				CC3FE4271C3E55F00032A3F4 /* AFNetworkReachabilityManager.m in Sources */,
+				CC3FE43B1C3E55F00032A3F4 /* SocketEngineSpec.swift in Sources */,
+				CC3FE4291C3E55F00032A3F4 /* AFSecurityPolicy.m in Sources */,
+				CC3FE4441C3E55F00032A3F4 /* SocketStringReader.swift in Sources */,
+				CC3FE4311C3E55F00032A3F4 /* VAORavenClient.m in Sources */,
+				CC3FE44D1C3E55F00032A3F4 /* VAOModel.m in Sources */,
+				CC3FE4491C3E55F00032A3F4 /* VAOAPIClient.m in Sources */,
+				CC3FE4351C3E55F00032A3F4 /* SocketAckEmitter.swift in Sources */,
+				CC3FE4371C3E55F00032A3F4 /* SocketAnyEvent.swift in Sources */,
+				CC3FE44B1C3E55F00032A3F4 /* VAOController.m in Sources */,
+				CC3FE4501C3E55F00032A3F4 /* VAOSocketClient.m in Sources */,
+				CC3FE4341C3E55F00032A3F4 /* VAORavenConfig.m in Sources */,
+				CC3FE43E1C3E55F00032A3F4 /* SocketIOClient.swift in Sources */,
+				CC3FE4411C3E55F00032A3F4 /* SocketLogger.swift in Sources */,
+				CC3FE4241C3E55F00032A3F4 /* AFHTTPSessionManager.m in Sources */,
+				CC3FE4431C3E55F00032A3F4 /* SocketParser.swift in Sources */,
+				CC3FE4361C3E55F00032A3F4 /* SocketAckManager.swift in Sources */,
+				CC3FE4471C3E55F00032A3F4 /* WebSocket.swift in Sources */,
+				CC3FE43A1C3E55F00032A3F4 /* SocketEnginePacketType.swift in Sources */,
+				CC3FE4451C3E55F00032A3F4 /* SocketTypes.swift in Sources */,
+				CC3FE43F1C3E55F00032A3F4 /* SocketIOClientOption.swift in Sources */,
+				CC3FE4461C3E55F00032A3F4 /* SwiftRegex.swift in Sources */,
+				CC3FE4421C3E55F00032A3F4 /* SocketPacket.swift in Sources */,
+				CC3FE43C1C3E55F00032A3F4 /* SocketEventHandler.swift in Sources */,
+				CC3FE42F1C3E55F00032A3F4 /* AFURLSessionManager.m in Sources */,
+				CC3FE4521C3E55F10032A3F4 /* VAOUtils.m in Sources */,
+				CC3FE42B1C3E55F00032A3F4 /* AFURLRequestSerialization.m in Sources */,
+				CC3FE42D1C3E55F00032A3F4 /* AFURLResponseSerialization.m in Sources */,
+				CC3FE43D1C3E55F00032A3F4 /* SocketFixUTF8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,15 +544,19 @@
 		CC3FE3E61C3E557E0032A3F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WINGIFY SOFTWARE PRIVATE LIMITED (DBN26NC8KE)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				GCC_PREFIX_HEADER = "VWOtv/vwo-sdk/VWO-Prefix.pch";
 				INFOPLIST_FILE = VWOtv/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vwo.tv.VWOtv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -320,15 +564,19 @@
 		CC3FE3E71C3E557E0032A3F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WINGIFY SOFTWARE PRIVATE LIMITED (DBN26NC8KE)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				GCC_PREFIX_HEADER = "VWOtv/vwo-sdk/VWO-Prefix.pch";
 				INFOPLIST_FILE = VWOtv/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vwo.tv.VWOtv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -372,6 +620,7 @@
 				CC3FE3E71C3E557E0032A3F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC3FE3E81C3E557E0032A3F4 /* Build configuration list for PBXNativeTarget "VWOtvTests" */ = {
 			isa = XCConfigurationList;
@@ -380,6 +629,7 @@
 				CC3FE3EA1C3E557E0032A3F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

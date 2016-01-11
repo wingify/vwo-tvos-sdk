@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>VWOAggregate.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>VWOtv.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>CC3FE3DA1C3E557E0032A3F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC7A5C061C3FA4B0006BD991</key>
 		<dict>
 			<key>primary</key>
 			<true/>
